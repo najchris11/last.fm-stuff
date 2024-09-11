@@ -20,7 +20,7 @@ This Python project fetches the top 100 albums from your Last.fm profile and all
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/najchris11/lastfm-album-selector.git
+git clone https://github.com/najchris11/last.fm-stuff.git
 cd lastfm-album-selector
 ```
 
