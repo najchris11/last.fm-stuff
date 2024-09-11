@@ -1,5 +1,5 @@
 import requests
-import secrets  # Import the secrets module
+import mySecrets  # Import the secrets module
 
 LIMIT = 100
 
@@ -31,6 +31,6 @@ def display_albums(albums):
         print(f"{i}. {artist} - {name} ({playcount} plays)")
 
 if __name__ == '__main__':
-    albums = get_top_albums(secrets.USER, secrets.API_KEY, LIMIT)
+    albums = get_top_albums(mySecrets.USER, mySecrets.API_KEY, LIMIT)
     if albums:
         display_albums(albums)
