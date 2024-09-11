@@ -1,0 +1,7 @@
+# .gitignore
+# Ignore secrets file
+secrets.py
+# Ignore Python virtual environment
+.venv/
+# Ignore selected albums log
+selected_albums.json
