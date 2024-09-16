@@ -21,7 +21,7 @@ This Python project fetches the top 100 albums from your Last.fm profile and all
 
 ```bash
 git clone https://github.com/najchris11/last.fm-stuff.git
-cd lastfm-album-selector
+cd last.fm-stuff
 ```
 
 ### 2. Create and Activate a Virtual Environment
